@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/formázások.css">
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/funkciók.js"></script>
+    <title>Email ellenőrzés</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row vh-100 align-items-center justify-content-center text-center">
+            <div class="col-10 col-md-6 col-lg-4">
+            <div class="col-12 my-5 text-light">
+                <h1 class="fw-bold border-bottom border-light pb-2">Email cím ellenőrző kód</h1>
+                <h4>Add meg az emailben kapott kódot</h4>
+            </div>
+                <div class="p-4 bg-dark text-light rounded shadow">
+                    <form class="needs-validation text-center" action="Főoldal.html" method="post" id="ellenorzes" autocomplete="off" onsubmit="event.preventDefault();Kod_ellenorzes()">
+                        <div class="form-floating my-3">
+                            <input type="text" class="form-control bg-secondary text-light border-light" id="kod" placeholder="" name="kod" required max="999" min="0">
+                            <label for="kod" class="text-light">Kód</label>
+                            <div class="invalid-tooltip" id="kod_hiba">
+                                Hibás kód!
+                            </div>
+                        </div>
+                        <input class="btn btn-primary w-100" type="submit" value="Ellenőrzés">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
