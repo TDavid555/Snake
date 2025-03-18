@@ -1,22 +1,28 @@
-Our goal was to modernize the Snake game. We created a web-based version
+He is PK, he made the website for the game and its server-side functions
+KP: He is BB, he gave a lot of ideas for making the game and he created the look of the snake
+BB: He is DT, he did the snake's movements, interactions and the project plan
 
-To build the game, we used HTML, CSS, and Bootstrap for the website structure, JavaScript for game mechanics, and SVG for rendering the playing field
 
-The main page includes a short history of Snake, a description of how to play, and a button to start the game
+2. Our goal was to modernize the Snake game. We created a web-based version
 
-When you start the game, there is a loading screen, and then you see a menu. You can choose a difficulty level before playing
+3. To build the game, we used HTML, CSS, and Bootstrap for the website structure, JavaScript for game mechanics, and SVG for rendering the playing field
 
-Players can create an account and log in. This allows them to save their progress and appear on the leaderboard
+4. The main page includes a short history of Snake, a description of how to play, and a button to start the game
 
-We have a page for editing account details, such as username
+5. When you start the game, there is a loading screen, and then you see a menu. You can choose a difficulty level before playing
 
-We have a leaderboard that shows the top 10 players. This makes the game more competitive
+6. Players can create an account and log in. This allows them to save their progress and appear on the leaderboard
 
-To organize our work, we used Trello for project management and Figma for designing the website.
+7. We have a page for editing account details, such as username
+
+8. We have a leaderboard that shows the top 10 players. This makes the game more competitive
+
+9. To organize our work, we used Trello for project management and Figma for designing the website.
+
 TD: 2,6,7
-KP: 3,4,8,9
+KP: 3,4,8
+BB: 5,9
 
 
 
 https://create.kahoot.it/share/snake/111dcf53-ebb8-461c-9681-d78cd7a68f49
-
