@@ -1,0 +1,15 @@
+5. dia 
+You can choose a difficulty level before playing. When you start the game, there is a loading screen. 
+
+9. ida
+To organize our work, we used Trello for project management and Figma for designing the website.
+
+
+TD: 
+He is PK, he made the website for the game and its server-side operation.
+
+KP:
+He is BB, he gave a lot of ideas for making the game and he created the look of the snake
+
+BB:
+He is DT, he did the snake's movements, interactions and the project plan
